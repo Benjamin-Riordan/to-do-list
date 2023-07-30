@@ -41,3 +41,13 @@ def complete_task(tasks, task_index):
         print(f"Task '{tasks[task_index - 1]['name']}' marked as completed!")
     else:
         print("Invalid task index!")
+
+# Function to display the current to-do list
+def display_tasks(tasks):
+    if not tasks:
+        print("To-Do List is empty.")
+    else:
+        print("To-Do List:")
+        for index, task in enumerate(tasks, start=1):
+            status = "✓" if task["done"] else " "
+            print(f"{index}. [{status}] {task['name']}")
