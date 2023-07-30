@@ -1,4 +1,9 @@
-# to do list 
+# Main function to run the to-do list app
+def main():
+    tasks = []
+    print("Welcome to the Simple To-Do List App!")
+
+
 # Function to add a new task to the list
 def add_task(tasks, task_name):
     tasks.append({"name": task_name, "done": False})
