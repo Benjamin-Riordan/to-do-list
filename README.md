@@ -70,5 +70,12 @@ deploy maunal or auto
 ## Code Used
 All the code I used is my own.
 
-# Thank You!
+# Post 
+
+during the period of this part of the course i had to take a leave and get an extesion of the deadline, This is by no way my finsest work and given a lot more time there is so much more i would do, 
+
+I used what i knew in python and kept it simply to be able to complete the project in the time i had left, 
+
+
+
 
