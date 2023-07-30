@@ -3,14 +3,13 @@ def add_task(tasks, task_name):
     tasks.append({"name": task_name, "done": False})
     print(f"Task '{task_name}' added to the list!")
 
-# Function to mark a task as completed
 def complete_task(tasks, task_index):
     if 1 <= task_index <= len(tasks):
         tasks[task_index - 1]["done"] = True
         print(f"Task '{tasks[task_index - 1]['name']}' marked as completed!")
     else:
         print("Invalid task index!")
-
+        
 # Function to display the current to-do list
 def display_tasks(tasks):
     if not tasks:
@@ -50,5 +49,5 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
