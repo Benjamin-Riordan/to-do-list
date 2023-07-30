@@ -3,6 +3,7 @@ def add_new_task(tasks, task_name):
     tasks.append({"name": task_name, "done": False})
     print(f"Task '{task_name}' added to the list!")
 
+
 def completed_task(tasks, task_index):
     if 1 <= task_index <= len(tasks):
         tasks[task_index - 1]["done"] = True
