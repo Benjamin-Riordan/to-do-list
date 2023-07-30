@@ -10,6 +10,22 @@ def main():
     print("3. Mark Task as Completed")
     print("4. Exit")
 
+    choice = input("Enter the number of your choice: ")
+
+    if choice == "1":
+            display_tasks(tasks)
+    elif choice == "2":
+            task_name = input("Enter the task name: ")
+            add_task(tasks, task_name)
+    elif choice == "3":
+            task_index = int(input("Enter the task index to mark as completed: "))
+            complete_task(tasks, task_index)
+    elif choice == "4":
+            print("Exiting the To-Do List App. Goodbye!")
+            break
+    else:
+            print("Invalid choice. Please try again.")
+
 
 
 # Function to add a new task to the list
