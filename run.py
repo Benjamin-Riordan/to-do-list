@@ -3,6 +3,14 @@ def main():
     tasks = []
     print("Welcome to the Simple To-Do List App!")
 
+    while True:
+    print("\nWhat do you want to do?")
+    print("1. View To-Do List")
+    print("2. Add Task")
+    print("3. Mark Task as Completed")
+    print("4. Exit")
+
+
 
 # Function to add a new task to the list
 def add_task(tasks, task_name):
