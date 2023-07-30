@@ -26,7 +26,8 @@ def main():
     else:
             print("Invalid choice. Please try again.")
 
-
+if __name__ == "__main__":
+    main()
 
 # Function to add a new task to the list
 def add_task(tasks, task_name):
