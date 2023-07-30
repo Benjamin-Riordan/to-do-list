@@ -12,6 +12,7 @@ def completed_task(tasks, task_index):
         print("Invalid task index!")
 
 # Function to display the current to-do list
+
 def display_task_all(tasks):
     if not tasks:
         print("To-Do List is empty.")
@@ -49,6 +50,7 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
     main()
